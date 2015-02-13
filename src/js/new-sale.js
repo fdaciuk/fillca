@@ -1,7 +1,7 @@
 ;(function( doc, $, Module, undefined ) {
     'use strict';
 
-    function App() {
+    function newSale() {
         var $private = {};
         var $public = {};
 
@@ -13,7 +13,7 @@
         return $public;
     }
 
-    App().init();
+    newSale().init();
 })( document, $j, window.Module );
 
 

@@ -92,6 +92,6 @@
         return $public;
     }
 
-    window.Module = window.Module || {};
-    window.Module.controllerNewSale = controllerNewSale();
+    win.Module = win.Module || {};
+    win.Module.controllerNewSale = controllerNewSale();
 })( window, document, $j );
